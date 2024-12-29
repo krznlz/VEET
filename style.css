@@ -6,7 +6,7 @@
 
 body {
     background-color: #90A0FF;
-    background: linear-gradient(0deg, rgba(222,255,156,1) 0%, rgb(255, 255, 255) 50%, rgba(144,160,255,1) 100%);
+    background: linear-gradient(0deg, rgba(222,255,156,1) 0%, rgb(255, 255, 255) 40%, rgba(144,160,255,1) 100%);
 }
 .width-rule {
     max-width: 1440px;
@@ -203,7 +203,7 @@ body {
     font-family: 'Berold';
     font-size: 120px;
     line-height: 130px;
-    color: #90A0FF;
+    color: #ffffff;
     text-transform: uppercase;
 }
 .instruction {
@@ -288,8 +288,17 @@ body {
     width: 350px;
     height: 550px;
     cursor: pointer;
+    transition: 1s;
 }
-
+.type1:hover{
+    transform: scale(1.1);
+}
+.type2:hover{
+    transform: scale(1.1);
+}
+.type3:hover{
+    transform: scale(1.1);
+}
 .tp1,.tp2,.tp3{
     display: flex;
     justify-content: left;
@@ -503,7 +512,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 306px;
-    height: 70px;
+    height: 60px;
     justify-content: space-between;
 }
 .num{
